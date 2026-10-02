@@ -1,0 +1,6 @@
+LIBRARY api-ms-win-core-winrt-error-l1-1-0.dll
+EXPORTS
+GetRestrictedErrorInfo=win32craft.GetRestrictedErrorInfo
+RoOriginateError=win32craft.RoOriginateError
+RoTransformError=win32craft.RoTransformError
+SetRestrictedErrorInfo=win32craft.SetRestrictedErrorInfo

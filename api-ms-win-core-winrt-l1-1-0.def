@@ -1,0 +1,10 @@
+LIBRARY api-ms-win-core-winrt-l1-1-0.dll
+EXPORTS
+RoGetActivationFactory=win32craft.RoGetActivationFactory
+RoGetApartmentIdentifier=win32craft.RoGetApartmentIdentifier
+RoInitialize=win32craft.RoInitialize
+RoRegisterActivationFactories=win32craft.RoRegisterActivationFactories
+RoRegisterForApartmentShutdown=win32craft.RoRegisterForApartmentShutdown
+RoRevokeActivationFactories=win32craft.RoRevokeActivationFactories
+RoUninitialize=win32craft.RoUninitialize
+RoUnregisterForApartmentShutdown=win32craft.RoUnregisterForApartmentShutdown

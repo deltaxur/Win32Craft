@@ -1,0 +1,11 @@
+LIBRARY api-ms-win-core-winrt-string-l1-1-0.dll
+EXPORTS
+WindowsCompareStringOrdinal=win32craft.WindowsCompareStringOrdinal
+WindowsCreateString=win32craft.WindowsCreateString
+WindowsCreateStringReference=win32craft.WindowsCreateStringReference
+WindowsDeleteString=win32craft.WindowsDeleteString
+WindowsDuplicateString=win32craft.WindowsDuplicateString
+WindowsGetStringLen=win32craft.WindowsGetStringLen
+WindowsGetStringRawBuffer=win32craft.WindowsGetStringRawBuffer
+WindowsIsStringEmpty=win32craft.WindowsIsStringEmpty
+WindowsStringHasEmbeddedNull=win32craft.WindowsStringHasEmbeddedNull
