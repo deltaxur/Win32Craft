@@ -127,7 +127,7 @@ def patch(source: Path, output: Path) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("source", nargs="?", type=Path, default=Path("Minecraft.Win10.DX11.exe"))
-    parser.add_argument("output", nargs="?", type=Path, default=Path("Win32Craft.0.15.10.exe"))
+    parser.add_argument("output", nargs="?", type=Path, default=Path("Win32Craft.exe"))
     args = parser.parse_args()
     patch(args.source, args.output)
 

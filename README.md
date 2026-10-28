@@ -6,7 +6,6 @@
 - 0.15.10
 - 1.1.5
 - 1.2.8
-- 1.16.20.03 (Experimental)
 
 ## Build
 Platform|Script

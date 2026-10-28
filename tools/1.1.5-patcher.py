@@ -384,7 +384,7 @@ def main() -> None:
         "source", nargs="?", type=Path, default=Path("Minecraft.Windows.exe")
     )
     parser.add_argument(
-        "output", nargs="?", type=Path, default=Path("Win32Craft.1.1.5.exe")
+        "output", nargs="?", type=Path, default=Path("Win32Craft.exe")
     )
     args = parser.parse_args()
     patch(args.source, args.output)
